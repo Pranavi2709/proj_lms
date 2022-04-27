@@ -22,13 +22,3 @@ college and important suggestions regarding books.
    - by deafult only approved notices to be put up on noticeboard
 
 
-## Development - Do when working on deployment to Heroku
-
-1. Install requirements from requirements.txt ( preferably setup a [virtual environment!](https://docs.python.org/3/library/venv.html))
-
-2. Set environment variables ``` SECRET_KEY ``` and ``` DEBUG ``` to get your website up and running on a 'nix OS ( [guide for other OS](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html) )
-   
-   ```bash
-   $ export SECRET_KEY=yourKeyHere
-   $ export DEBUG=True #for development, for production set False
-   ```
